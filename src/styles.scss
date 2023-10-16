@@ -1,0 +1,21 @@
+/*
+Front End Engineer: Ruben Guzman
+Email: ruben_guzman1020@hotmail.com
+Online Project based on Angular: https://www.pryices.com
+*/
+/*** Mixin ***/
+@mixin roundBorder($padding, $margin, $radius, $color, $border) {
+    padding: $padding;
+    border: $border solid $color;
+    border-radius: $radius;
+    margin: $margin;
+}
+/*** End - Mixin ***/
+
+/**** Color variables ****/
+$red: #E20000;
+$lightGray: #ccc;
+$darkGray: #777;
+$white: #fff;
+$black: #000;
+/* End - Color variables */

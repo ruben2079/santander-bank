@@ -1,0 +1,25 @@
+@import '../../styles';
+
+ul {
+    list-style-type: none;
+    padding: 0 0 0 5px;
+    li {
+        &::before {
+            content: '';
+            margin-right: 5px;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            -moz-border-radius: 7.5px;
+            -webkit-border-radius: 7.5px;
+            border-radius: 7.5px;
+            background-color: $red;
+        }
+        a {
+            color: $darkGray;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}

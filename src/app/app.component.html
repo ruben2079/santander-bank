@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruben Guzman - Coding Test</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta content="True" name="HandheldFriendly" />
+    <meta name="title" content="Ruben Guzman" />
+    <meta name="description" content="Web Developer / Front End Engineer" />
+    <meta name="author" content="Ruben Guzman" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="logo-section">
+        <img src="https://1000logos.net/wp-content/uploads/2017/09/Santander-Logo.png" />
+        <p>Assessment developed by Ruben Guzman</p>
+        <p>Email: <a href="mailto:ruben_guzman1020@hotmail.com">ruben_guzman1020@hotmail.com</a></p>
+      </div>
+      <div class="top-container">
+        <div class="left-side">
+          <div class="container">
+            <header>
+              <h2>List Data</h2>
+            </header>
+          </div>
+          <div class="left-list container">
+            <app-left-list [leftList]="photos"></app-left-list>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="container">
+            <header>
+              <h2>Info Data</h2>
+            </header>
+          </div>
+          <div class="info-container container">
+            <app-info-container></app-info-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

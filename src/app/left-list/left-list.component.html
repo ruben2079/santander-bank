@@ -1,0 +1,3 @@
+<ul *ngFor="let photo of leftList; let i = index">
+    <li><a href="" id="{{ photo.id }}" (click)="selectedData($event, i)">{{ photo.title }}</a></li>
+</ul>

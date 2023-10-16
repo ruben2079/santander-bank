@@ -1,0 +1,28 @@
+/*
+Front End Engineer: Ruben Guzman
+Email: ruben_guzman1020@hotmail.com
+Online Project based on Angular: https://www.pryices.com
+*/
+@import '../../styles';
+
+figure {
+    border: thin $lightGray solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 150px;
+    margin: auto;
+    img {
+        width: 150px;
+        max-width: 150px;
+        background-image:url('https://via.placeholder.com/150/92c952');
+    }
+
+    figcaption {
+        background-color: $black;
+        color: $white;
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,70 @@
+/*
+Front End Engineer: Ruben Guzman
+Email: ruben_guzman1020@hotmail.com
+Online Project based on Angular: https://www.pryices.com
+*/
+@import './../styles';
+
+.main-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    .logo-section {
+        padding: 5px;
+        img {
+            width: 200px;
+            height: auto;
+        }
+        p {
+            
+            margin: 0;
+            padding: 0;
+         }
+    }
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+        }
+        .left-side {
+            .container {
+                @include roundBorder(0,5px,5px,$red,1px);
+                header {
+                    display: inline-block;
+                    width: 100%;
+                    padding: 5px 0;
+                    margin: 0;
+                    background-color: $red;
+                    color: $white;
+                    text-shadow: 1px 1px 1px $black;
+                    h2 {
+                        padding: 5px;
+                    }
+                }
+            }
+
+            .left-list {
+                overflow-y: scroll;
+                height: 300px;
+            }
+        }
+        .right-side {
+            .container {
+                @include roundBorder(0,5px,5px,$red,1px);
+                header {
+                    display: inline-block;
+                    width: 100%;
+                    padding: 5px 0;
+                    margin: 0;
+                    background-color: $red;
+                    color: $white;
+                    text-shadow: 1px 1px 1px $black;
+                    h2 {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }   
+}
